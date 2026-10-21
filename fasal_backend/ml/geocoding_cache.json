@@ -1,0 +1,739 @@
+{
+  "nicobars__andamanandnicobarislands": null,
+  "carnicobar__andamanandnicobarislands": [
+    9.15163,
+    92.81877,
+    "Car Nicobar AFB",
+    "Andaman and Nicobar"
+  ],
+  "northandmiddleandaman__andamanandnicobarislands": null,
+  "mayabunder__andamanandnicobarislands": [
+    12.90954,
+    92.90348,
+    "Mayabunder",
+    "Andaman and Nicobar"
+  ],
+  "southandamans__andamanandnicobarislands": null,
+  "portblair__andamanandnicobarislands": [
+    11.66613,
+    92.74635,
+    "Port Blair",
+    "Andaman and Nicobar"
+  ],
+  "visakhapatanam__andhrapradesh": null,
+  "visakhapatnam__andhrapradesh": [
+    17.68009,
+    83.20161,
+    "Visakhapatnam",
+    "Andhra Pradesh"
+  ],
+  "anjaw__arunachalpradesh": null,
+  "hawai__arunachalpradesh": [
+    27.88677,
+    96.8017,
+    "Hawai",
+    "Arunachal Pradesh"
+  ],
+  "dibangvalley__arunachalpradesh": null,
+  "anini__arunachalpradesh": [
+    28.79792,
+    95.90228,
+    "Anini",
+    "Arunachal Pradesh"
+  ],
+  "longding__arunachalpradesh": [
+    26.88412,
+    95.31946,
+    "Longding",
+    "Arunachal Pradesh"
+  ],
+  "namsai__arunachalpradesh": [
+    27.66904,
+    95.86395,
+    "Namsai",
+    "Arunachal Pradesh"
+  ],
+  "baksa__assam": null,
+  "mushalpur__assam": [
+    26.5792,
+    91.4261,
+    "Mushalpur",
+    "Assam"
+  ],
+  "chirang__assam": null,
+  "kajalgaon__assam": null,
+  "dhubri__assam": [
+    26.01856,
+    89.98564,
+    "Dhubri",
+    "Assam"
+  ],
+  "kamrupmetro__assam": null,
+  "guwahati__assam": [
+    26.1844,
+    91.7458,
+    "Guwahati",
+    "Assam"
+  ],
+  "udalguri__assam": [
+    26.75367,
+    92.10215,
+    "Udalguri",
+    "Assam"
+  ],
+  "arwal__bihar": [
+    25.24281,
+    84.66571,
+    "Arwal",
+    "Bihar"
+  ],
+  "purbichamparan__bihar": null,
+  "motihari__bihar": [
+    27.09833,
+    84.54916,
+    "Mot\u012bh\u0101ri",
+    "Bihar"
+  ],
+  "balod__chhattisgarh": [
+    20.73081,
+    81.20578,
+    "Balod",
+    "Chhattisgarh"
+  ],
+  "balodabazar__chhattisgarh": [
+    21.65678,
+    82.16062,
+    "Baloda B\u0101z\u0101r",
+    "Chhattisgarh"
+  ],
+  "bemetara__chhattisgarh": [
+    21.71556,
+    81.53423,
+    "Bemet\u0101ra",
+    "Chhattisgarh"
+  ],
+  "gariyaband__chhattisgarh": null,
+  "gariaband__chhattisgarh": [
+    20.63323,
+    82.06221,
+    "Gari\u0101band",
+    "Chhattisgarh"
+  ],
+  "kondagaon__chhattisgarh": [
+    19.59083,
+    81.664,
+    "Kondagaon",
+    "Chhattisgarh"
+  ],
+  "korea__chhattisgarh": [
+    23.15,
+    83.96667,
+    "Korea",
+    "Chhattisgarh"
+  ],
+  "mungeli__chhattisgarh": [
+    22.06566,
+    81.68543,
+    "Mungeli",
+    "Chhattisgarh"
+  ],
+  "narayanpur__chhattisgarh": [
+    19.71794,
+    81.24437,
+    "N\u0101r\u0101inpur",
+    "Chhattisgarh"
+  ],
+  "sukma__chhattisgarh": [
+    18.39014,
+    81.65941,
+    "Sukma",
+    "Chhattisgarh"
+  ],
+  "surajpur__chhattisgarh": [
+    23.21347,
+    82.86836,
+    "Surajpur",
+    "Chhattisgarh"
+  ],
+  "dang__gujarat": null,
+  "tapi__gujarat": null,
+  "mewat__haryana": null,
+  "nuh__haryana": [
+    28.10296,
+    77.00144,
+    "N\u016bh",
+    "Haryana"
+  ],
+  "palwal__haryana": [
+    28.14469,
+    77.32546,
+    "Palwal",
+    "Haryana"
+  ],
+  "sonipat__haryana": [
+    28.99478,
+    77.01937,
+    "Son\u012bpat",
+    "Haryana"
+  ],
+  "anantnag__jammuandkashmir": [
+    33.73068,
+    75.15418,
+    "Anantnag",
+    "Jammu and Kashmir"
+  ],
+  "badgam__jammuandkashmir": [
+    34.01524,
+    74.72074,
+    "Badg\u0101m",
+    "Jammu and Kashmir"
+  ],
+  "bandipora__jammuandkashmir": null,
+  "baramulla__jammuandkashmir": null,
+  "ganderbal__jammuandkashmir": [
+    34.22619,
+    74.77478,
+    "Ganderbal",
+    "Jammu and Kashmir"
+  ],
+  "kishtwar__jammuandkashmir": [
+    33.31346,
+    75.76726,
+    "Kishtw\u0101r",
+    "Jammu and Kashmir"
+  ],
+  "kulgam__jammuandkashmir": [
+    33.64456,
+    75.01923,
+    "Kulgam",
+    "Jammu and Kashmir"
+  ],
+  "kupwara__jammuandkashmir": [
+    34.52856,
+    74.26396,
+    "Kopawor",
+    "Jammu and Kashmir"
+  ],
+  "lehladakh__jammuandkashmir": null,
+  "poonch__jammuandkashmir": [
+    33.77033,
+    74.09254,
+    "P\u016bnch",
+    "Jammu and Kashmir"
+  ],
+  "ramban__jammuandkashmir": [
+    33.24278,
+    75.23513,
+    "R\u0101mban",
+    "Jammu and Kashmir"
+  ],
+  "reasi__jammuandkashmir": [
+    33.08115,
+    74.83242,
+    "Reasi",
+    "Jammu and Kashmir"
+  ],
+  "samba__jammuandkashmir": [
+    32.56245,
+    75.11993,
+    "S\u0101mba",
+    "Jammu and Kashmir"
+  ],
+  "shopian__jammuandkashmir": [
+    33.71723,
+    74.83413,
+    "Shopian",
+    "Jammu and Kashmir"
+  ],
+  "eastsinghbum__jharkhand": null,
+  "hazaribagh__jharkhand": [
+    23.99241,
+    85.36162,
+    "Hazaribagh",
+    "Jharkhand"
+  ],
+  "khunti__jharkhand": [
+    23.07602,
+    85.27818,
+    "Khunti",
+    "Jharkhand"
+  ],
+  "ramgarh__jharkhand": [
+    23.6303,
+    85.52156,
+    "R\u0101mgarh",
+    "Jharkhand"
+  ],
+  "sahebganj__jharkhand": null,
+  "westsinghbhum__jharkhand": null,
+  "bengaluruurban__karnataka": null,
+  "chamarajanagar__karnataka": [
+    11.92312,
+    76.93949,
+    "Chamrajnagar",
+    "Karnataka"
+  ],
+  "chikballapur__karnataka": null,
+  "ramanagara__karnataka": null,
+  "uttarkannad__karnataka": null,
+  "yadgir__karnataka": [
+    16.77007,
+    77.13755,
+    "Yadgir",
+    "Karnataka"
+  ],
+  "pathanamthitta__kerala": [
+    9.26667,
+    76.78333,
+    "Pathan\u0101mthitta",
+    "Kerala"
+  ],
+  "agarmalwa__madhyapradesh": null,
+  "alirajpur__madhyapradesh": [
+    22.30393,
+    74.35568,
+    "Alirajpur",
+    "Madhya Pradesh"
+  ],
+  "khandwa__madhyapradesh": [
+    21.82427,
+    76.35086,
+    "Khandwa",
+    "Madhya Pradesh"
+  ],
+  "khargone__madhyapradesh": [
+    21.82292,
+    75.61394,
+    "Khargone",
+    "Madhya Pradesh"
+  ],
+  "singrauli__madhyapradesh": [
+    24.19973,
+    82.67535,
+    "Singrauli",
+    "Madhya Pradesh"
+  ],
+  "beed__maharashtra": [
+    18.98921,
+    75.75634,
+    "Beed",
+    "Maharashtra"
+  ],
+  "buldhana__maharashtra": null,
+  "gadchiroli__maharashtra": [
+    20.18061,
+    80.00522,
+    "Garhchiroli",
+    "Maharashtra"
+  ],
+  "gondia__maharashtra": [
+    21.46026,
+    80.19205,
+    "Gondi\u0101",
+    "Maharashtra"
+  ],
+  "mumbai__maharashtra": [
+    19.07283,
+    72.88261,
+    "Mumbai",
+    "Maharashtra"
+  ],
+  "palghar__maharashtra": [
+    19.69693,
+    72.76543,
+    "P\u0101lghar",
+    "Maharashtra"
+  ],
+  "raigad__maharashtra": null,
+  "imphaleast__manipur": null,
+  "imphalwest__manipur": null,
+  "eastjaintiahills__meghalaya": null,
+  "northgarohills__meghalaya": null,
+  "southwestgarohills__meghalaya": null,
+  "southwestkhasihills__meghalaya": null,
+  "westjaintiahills__meghalaya": null,
+  "kiphire__nagaland": [
+    25.86785,
+    94.78572,
+    "Kiphire",
+    "Nagaland"
+  ],
+  "longleng__nagaland": [
+    26.48989,
+    94.81772,
+    "Longleng",
+    "Nagaland"
+  ],
+  "peren__nagaland": [
+    25.56743,
+    93.76056,
+    "Lakema",
+    "Nagaland"
+  ],
+  "anugul__odisha": null,
+  "balangir__odisha": [
+    20.70419,
+    83.49029,
+    "Bal\u0101ng\u012br",
+    "Odisha"
+  ],
+  "bargarh__odisha": [
+    21.33348,
+    83.61905,
+    "Bargarh",
+    "Odisha"
+  ],
+  "pondicherry__puducherry": [
+    11.9687,
+    79.8101,
+    "Pondicherry Airport",
+    "Tamil Nadu"
+  ],
+  "barnala__punjab": [
+    30.37451,
+    75.5487,
+    "Barn\u0101la",
+    "Punjab"
+  ],
+  "fazilka__punjab": [
+    30.40207,
+    74.02836,
+    "Fazilka",
+    "Punjab"
+  ],
+  "firozepur__punjab": null,
+  "nawanshahr__punjab": [
+    31.1245,
+    76.11613,
+    "Nawanshahr",
+    "Punjab"
+  ],
+  "pathankot__punjab": [
+    32.27484,
+    75.65287,
+    "Pathankot",
+    "Punjab"
+  ],
+  "sasnagar__punjab": null,
+  "mohali__punjab": [
+    30.67995,
+    76.72211,
+    "Mohali",
+    "Punjab"
+  ],
+  "tarntaran__punjab": [
+    31.45191,
+    74.92777,
+    "Tarn Taran",
+    "Punjab"
+  ],
+  "chittorgarh__rajasthan": [
+    24.88963,
+    74.62403,
+    "Chittorgarh",
+    "Rajasthan"
+  ],
+  "dholpur__rajasthan": [
+    26.69286,
+    77.87968,
+    "Dhaulpur",
+    "Rajasthan"
+  ],
+  "jalore__rajasthan": [
+    25.34558,
+    72.61559,
+    "Jalor",
+    "Rajasthan"
+  ],
+  "jhunjhunu__rajasthan": [
+    28.12559,
+    75.39797,
+    "Jhunjhun\u016bn",
+    "Rajasthan"
+  ],
+  "eastdistrict__sikkim": null,
+  "northdistrict__sikkim": null,
+  "southdistrict__sikkim": null,
+  "westdistrict__sikkim": null,
+  "kanchipuram__tamilnadu": [
+    12.83515,
+    79.70006,
+    "Kanchipuram",
+    "Tamil Nadu"
+  ],
+  "krishnagiri__tamilnadu": [
+    12.51921,
+    78.21382,
+    "Krishnagiri",
+    "Tamil Nadu"
+  ],
+  "thenilgiris__tamilnadu": null,
+  "tiruchirappalli__tamilnadu": [
+    10.8155,
+    78.69651,
+    "Tiruchirappalli",
+    "Tamil Nadu"
+  ],
+  "tirunelveli__tamilnadu": [
+    8.72742,
+    77.6838,
+    "Tirunelveli",
+    "Tamil Nadu"
+  ],
+  "tiruppur__tamilnadu": [
+    11.11541,
+    77.35456,
+    "Tirupur",
+    "Tamil Nadu"
+  ],
+  "tuticorin__tamilnadu": [
+    8.72308,
+    78.02731,
+    "Tuticorin Airport",
+    "Tamil Nadu"
+  ],
+  "gomati__tripura": null,
+  "khowai__tripura": [
+    24.07964,
+    91.59972,
+    "Khowai",
+    "Tripura"
+  ],
+  "sepahijala__tripura": null,
+  "unakoti__tripura": null,
+  "amethi__uttarpradesh": [
+    26.15696,
+    81.80519,
+    "Ameth\u012b",
+    "Uttar Pradesh"
+  ],
+  "amroha__uttarpradesh": [
+    28.90314,
+    78.46984,
+    "Amroha",
+    "Uttar Pradesh"
+  ],
+  "budaun__uttarpradesh": [
+    28.03811,
+    79.12668,
+    "Budaun",
+    "Uttar Pradesh"
+  ],
+  "hapur__uttarpradesh": [
+    28.72985,
+    77.78068,
+    "H\u0101pur",
+    "Uttar Pradesh"
+  ],
+  "kanpurnagar__uttarpradesh": null,
+  "kasganj__uttarpradesh": [
+    27.80882,
+    78.64579,
+    "Kasganj",
+    "Uttar Pradesh"
+  ],
+  "kheri__uttarpradesh": [
+    27.90354,
+    80.79754,
+    "Kheri",
+    "Uttar Pradesh"
+  ],
+  "sambhal__uttarpradesh": [
+    28.58498,
+    78.56959,
+    "Sambhal",
+    "Uttar Pradesh"
+  ],
+  "shamli__uttarpradesh": [
+    29.4497,
+    77.30959,
+    "Shamli",
+    "Uttar Pradesh"
+  ],
+  "udamsinghnagar__uttarakhand": null,
+  "24paraganasnorth__westbengal": null,
+  "24paraganassouth__westbengal": null,
+  "bardhaman__westbengal": [
+    23.25572,
+    87.85691,
+    "Bardhaman",
+    "West Bengal"
+  ],
+  "darjeeling__westbengal": [
+    27.03333,
+    88.26667,
+    "Darjeeling",
+    "West Bengal"
+  ],
+  "hooghly__westbengal": [
+    22.90877,
+    88.39674,
+    "Hugli",
+    "West Bengal"
+  ],
+  "howrah__westbengal": [
+    22.57688,
+    88.31857,
+    "Howrah",
+    "West Bengal"
+  ],
+  "medinipureast__westbengal": null,
+  "tamluk__westbengal": [
+    22.30083,
+    87.92593,
+    "Taml\u016bk",
+    "West Bengal"
+  ],
+  "medinipurwest__westbengal": null,
+  "midnapore__westbengal": [
+    22.42114,
+    87.32257,
+    "Medin\u012bpur",
+    "West Bengal"
+  ],
+  "purulia__westbengal": [
+    23.33062,
+    86.36303,
+    "Puruliya",
+    "West Bengal"
+  ],
+  "vyara__gujarat": [
+    21.11079,
+    73.39365,
+    "Vy\u0101ra",
+    "Gujarat"
+  ],
+  "bandipore__jammuandkashmir": null,
+  "baramula__jammuandkashmir": [
+    34.209,
+    74.34285,
+    "B\u0101ram\u016bla",
+    "Jammu and Kashmir"
+  ],
+  "leh__jammuandkashmir": [
+    34.16504,
+    77.58402,
+    "Leh",
+    "Ladakh"
+  ],
+  "chaibasa__jharkhand": [
+    22.55038,
+    85.80249,
+    "Ch\u0101\u012bb\u0101sa",
+    "Jharkhand"
+  ],
+  "bangalore__karnataka": null,
+  "bengaluru__karnataka": [
+    12.97194,
+    77.59369,
+    "Bengaluru",
+    "Karnataka"
+  ],
+  "chikkaballapura__karnataka": null,
+  "ramanagar__karnataka": null,
+  "uttarakannada__karnataka": null,
+  "karwar__karnataka": [
+    14.81361,
+    74.12972,
+    "Karwar",
+    "Karnataka"
+  ],
+  "agar__madhyapradesh": [
+    23.71177,
+    76.01571,
+    "Agar",
+    "Madhya Pradesh"
+  ],
+  "porompat__manipur": null,
+  "lamphelpat__manipur": null,
+  "imphal__manipur": [
+    24.80805,
+    93.9442,
+    "Imphal",
+    "Manipur"
+  ],
+  "khliehriat__meghalaya": [
+    25.35776,
+    92.36643,
+    "Khliehriat",
+    "Meghalaya"
+  ],
+  "resubelpara__meghalaya": [
+    25.90404,
+    90.60747,
+    "Resubelpara",
+    "Meghalaya"
+  ],
+  "ampati__meghalaya": [
+    25.4623,
+    89.93325,
+    "Ampati",
+    "Meghalaya"
+  ],
+  "mawkyrwat__meghalaya": [
+    25.36226,
+    91.45839,
+    "Mawkyrwat",
+    "Meghalaya"
+  ],
+  "jowai__meghalaya": [
+    25.43596,
+    92.19132,
+    "Jowai",
+    "Meghalaya"
+  ],
+  "gangtok__sikkim": [
+    27.32574,
+    88.61216,
+    "Gangtok",
+    "Sikkim"
+  ],
+  "mangan__sikkim": [
+    27.50965,
+    88.52206,
+    "Mangan",
+    "Sikkim"
+  ],
+  "namchi__sikkim": [
+    27.16494,
+    88.3638,
+    "Namchi",
+    "Sikkim"
+  ],
+  "gyalshing__sikkim": [
+    27.28952,
+    88.25764,
+    "Gyalshing",
+    "Sikkim"
+  ],
+  "bishramganj__tripura": [
+    23.60582,
+    91.34355,
+    "Bishramganj",
+    "Tripura"
+  ],
+  "kailashahar__tripura": [
+    24.33199,
+    92.00391,
+    "Kail\u0101shahar",
+    "Tripura"
+  ],
+  "sumbal__jammuandkashmir": [
+    34.23072,
+    74.6472,
+    "Sumbal",
+    "Jammu and Kashmir"
+  ],
+  "chintamani__karnataka": [
+    13.40051,
+    78.05172,
+    "Chintamani",
+    "Karnataka"
+  ],
+  "channapatna__karnataka": [
+    12.65143,
+    77.20672,
+    "Channapatna",
+    "Karnataka"
+  ]
+}

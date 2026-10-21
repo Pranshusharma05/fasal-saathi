@@ -1,0 +1,6 @@
+{
+  "name": "फसल साथी (Fasal Saathi) - Crop Yield Predictor",
+  "description": "Farmer-friendly mobile-first crop yield predictor in Hindi and English with plain language recommendations and district-level estimates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

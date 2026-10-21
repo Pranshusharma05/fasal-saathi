@@ -1,0 +1,4 @@
+/**
+ * Application Configuration
+ */
+export {};
