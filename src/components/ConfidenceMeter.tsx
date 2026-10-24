@@ -6,12 +6,14 @@ interface ConfidenceMeterProps {
   confidence: 'low' | 'medium' | 'high';
   soilSource: 'district_average' | 'user_reported' | 'soil_health_card';
   currentLang: Language;
+  expectedErrorPct?: number;
 }
 
 export const ConfidenceMeter: React.FC<ConfidenceMeterProps> = ({
   confidence,
   soilSource,
   currentLang,
+  expectedErrorPct,
 }) => {
   const t = translations[currentLang];
 
@@ -48,13 +50,18 @@ export const ConfidenceMeter: React.FC<ConfidenceMeterProps> = ({
           <ShieldCheck className="w-5 h-5" />
         </div>
         <div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 flex-wrap">
             <span className="font-bold text-gray-900 text-base sm:text-lg">
               {t.confidenceTitle}:
             </span>
             <span className="font-bold text-[#1B5E20] text-base sm:text-lg">
               {getConfidenceLabel()}
             </span>
+            {expectedErrorPct !== undefined && expectedErrorPct !== null && (
+              <span className="inline-flex items-center text-xs font-semibold px-2 py-0.5 rounded-full bg-[#E8F5E9] text-[#2E7D32] border border-[#C8E6C9]">
+                {t.confidenceTypicalError.replace('{pct}', String(expectedErrorPct))}
+              </span>
+            )}
           </div>
           <p className="text-xs sm:text-sm text-gray-600 mt-1 flex items-center gap-1.5">
             <Info className="w-3.5 h-3.5 text-gray-400 shrink-0" />

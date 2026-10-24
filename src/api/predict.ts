@@ -39,6 +39,25 @@ export interface PredictionResponse {
   soil_source: 'district_average' | 'user_reported' | 'soil_health_card';
   reasons: PredictionReason[];
   advice: PredictionAdvice[];
+  data_year?: number;
+  expected_error_pct?: number;
+}
+
+export interface ModelInfoResponse {
+  model_name?: string;
+  median_abs_pct_error?: number;
+  within_25_pct?: number;
+  within_50_pct?: number;
+  rows_evaluated?: number;
+  note?: string;
+}
+
+export async function getModelInfo(): Promise<ModelInfoResponse> {
+  const res = await fetch('/api/model-info');
+  if (!res.ok) {
+    throw new Error('Failed to fetch model info');
+  }
+  return res.json();
 }
 
 /**

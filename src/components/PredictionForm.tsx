@@ -201,7 +201,7 @@ export const PredictionForm: React.FC<PredictionFormProps> = ({
   };
 
   return (
-    <div className="w-full max-w-[720px] mx-auto px-4 pb-32 pt-2">
+    <div className="w-full max-w-[720px] mx-auto px-4 pb-12 pt-2">
       <StepProgress
         currentStep={currentStep}
         totalSteps={3}
@@ -494,35 +494,33 @@ export const PredictionForm: React.FC<PredictionFormProps> = ({
         )}
       </div>
 
-      {/* Bottom Back/Next bar: aligned INSIDE the same 720px column as the form card */}
-      <div className="fixed bottom-0 left-0 right-0 z-30 bg-white/95 backdrop-blur-md border-t border-[#E8E4D8] py-2.5 shadow-lg">
-        <div className="max-w-[720px] mx-auto px-4 flex items-center justify-between gap-3">
+      {/* Action Buttons: Form card ke thik neeche (24px gap), usi max-w-[720px] column mein */}
+      <div className="mt-6 flex items-center justify-between gap-3">
+        <button
+          type="button"
+          onClick={handleBack}
+          className="btn-secondary flex-1 sm:flex-initial"
+        >
+          <span>{t.backBtn}</span>
+        </button>
+
+        {currentStep < 3 ? (
           <button
             type="button"
-            onClick={handleBack}
-            className="btn-secondary flex-1 sm:flex-initial bg-gray-100 hover:bg-gray-200 text-gray-800 border border-gray-300 active:scale-95"
+            onClick={handleNext}
+            className="btn-primary-gradient flex-[1.4] sm:flex-initial"
           >
-            <span>{t.backBtn}</span>
+            <span>{t.nextBtn}</span>
           </button>
-
-          {currentStep < 3 ? (
-            <button
-              type="button"
-              onClick={handleNext}
-              className="btn-primary-gradient flex-[2] sm:flex-initial"
-            >
-              <span>{t.nextBtn}</span>
-            </button>
-          ) : (
-            <button
-              type="button"
-              onClick={handleSubmit}
-              className="btn-primary-gradient flex-[2] sm:flex-initial"
-            >
-              <span>{t.submitBtn}</span>
-            </button>
-          )}
-        </div>
+        ) : (
+          <button
+            type="button"
+            onClick={handleSubmit}
+            className="btn-primary-gradient flex-[1.4] sm:flex-initial"
+          >
+            <span>{t.submitBtn}</span>
+          </button>
+        )}
       </div>
 
       {/* "सभी 23 फसलें देखें" Searchable Modal */}

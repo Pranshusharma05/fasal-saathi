@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {
   Share2,
   MapPin,
+  Calendar,
   ChevronDown,
   Info,
   Building2,
@@ -165,6 +166,21 @@ export const ResultView: React.FC<ResultViewProps> = ({
           </div>
         </div>
       </div>
+
+      {/* Historical Data Year Notice Strip */}
+      {prediction.data_year && (
+        <div className="w-full bg-[#F1F8E9] border border-[#C8E6C9] rounded-xl px-3.5 py-2.5 flex items-center justify-between gap-3 text-xs sm:text-sm text-[#1B5E20]">
+          <div className="flex items-center gap-2 min-w-0">
+            <Calendar className="w-4 h-4 text-[#2E7D32] shrink-0" />
+            <span className="leading-snug">
+              {t.dataYearNotice}
+            </span>
+          </div>
+          <span className="shrink-0 font-semibold px-2 py-0.5 rounded-md bg-white border border-[#C8E6C9] text-[11px] sm:text-xs">
+            {t.dataYearLabel}: {prediction.data_year}
+          </span>
+        </div>
+      )}
 
       {/* =========================================================================
           1. VERDICT BANNER (Full width, colored by rating, big emoji & ONE plain sentence)
@@ -405,6 +421,7 @@ export const ResultView: React.FC<ResultViewProps> = ({
         confidence={prediction.confidence}
         soilSource={prediction.soil_source}
         currentLang={currentLang}
+        expectedErrorPct={prediction.expected_error_pct}
       />
 
       {/* KVK Helpline Card */}
@@ -429,14 +446,14 @@ export const ResultView: React.FC<ResultViewProps> = ({
       {/* =========================================================================
           10. ACTION BUTTONS: "जानकारी बदलें" and "नया अनुमान" + WhatsApp
           ========================================================================= */}
-      <div className="pt-2 flex flex-col sm:flex-row items-stretch gap-2.5">
+      <div className="pt-2 flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
         <button
           type="button"
           onClick={onEditDetails}
           className="btn-secondary flex-1 bg-white hover:bg-[#F1F8E9] text-[#1B5E20] border-2 border-[#2E7D32] shadow-2xs active:scale-95"
         >
-          <Edit3 className="w-4 h-4 text-[#2E7D32]" />
-          <span>{currentLang === 'hi' ? '✏️ जानकारी बदलें' : '✏️ Edit Details'}</span>
+          <Edit3 className="w-4 h-4 text-[#2E7D32] shrink-0" />
+          <span>{currentLang === 'hi' ? 'जानकारी बदलें' : 'Edit Details'}</span>
         </button>
 
         <button
@@ -444,8 +461,8 @@ export const ResultView: React.FC<ResultViewProps> = ({
           onClick={onNewPrediction}
           className="btn-primary-gradient flex-1"
         >
-          <RotateCcw className="w-4 h-4" />
-          <span>{currentLang === 'hi' ? '🔄 नया अनुमान' : '🔄 New Prediction'}</span>
+          <RotateCcw className="w-4 h-4 shrink-0" />
+          <span>{currentLang === 'hi' ? 'नया अनुमान' : 'New Prediction'}</span>
         </button>
 
         <button
@@ -454,7 +471,7 @@ export const ResultView: React.FC<ResultViewProps> = ({
           className="btn-secondary sm:flex-initial bg-[#25D366] hover:bg-[#1EBE5D] text-white border-transparent shadow-xs active:scale-95"
           title="व्हाट्सएप पर शेयर करें"
         >
-          <Share2 className="w-4 h-4" />
+          <Share2 className="w-4 h-4 shrink-0" />
           <span>{currentLang === 'hi' ? 'व्हाट्सएप' : 'WhatsApp'}</span>
         </button>
       </div>

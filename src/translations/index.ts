@@ -212,6 +212,19 @@ export interface TranslationDictionary {
   aboutKvkTitle: string;
   aboutKvkDesc: string;
   aboutTollFree: string;
+
+  // Data Year Notice & Typical Error Badge
+  dataYearNotice: string;
+  dataYearLabel: string;
+  confidenceTypicalError: string;
+
+  // Model Accuracy (About Page)
+  aboutAccuracyTitle: string;
+  aboutAccuracySubtitle: string;
+  aboutAccuracyMedian: string;
+  aboutAccuracyWithin25: string;
+  aboutAccuracyWithin50: string;
+  aboutAccuracyLimitation: string;
 }
 
 export const translations: Record<Language, TranslationDictionary> = {
@@ -408,6 +421,16 @@ export const translations: Record<Language, TranslationDictionary> = {
     aboutKvkTitle: 'कृषि विज्ञान केंद्र (KVK) का महत्व',
     aboutKvkDesc: 'भारत सरकार द्वारा देश के लगभग हर ज़िले में स्थापित KVK किसानों के सच्चे मित्र हैं। हम हर किसान को अपने ब्लॉक या ज़िला KVK से जुड़ने की पुरज़ोर सलाह देते हैं।',
     aboutTollFree: 'किसान कॉल सेंटर टोल-फ्री नंबर: 1800-180-1551',
+
+    dataYearNotice: 'यह अनुमान 2014 तक के ऐतिहासिक कृषि डेटा पर आधारित है, भविष्य के मौसम पूर्वानुमान पर नहीं।',
+    dataYearLabel: 'डेटा वर्ष',
+    confidenceTypicalError: '(आमतौर पर ~{pct}% का अंतर)',
+    aboutAccuracyTitle: 'मॉडल की सटीकता / Model Accuracy',
+    aboutAccuracySubtitle: '20% स्वतंत्र परीक्षण डेटा (Hold-out Test Set) पर मापा गया वास्तविक प्रदर्शन:',
+    aboutAccuracyMedian: 'आमतौर पर औसत अंतर (Median Error)',
+    aboutAccuracyWithin25: 'अनुमान 25% के अंदर',
+    aboutAccuracyWithin50: 'अनुमान 50% के अंदर',
+    aboutAccuracyLimitation: 'Dataset mein mitti, khad aur mausam ka data nahi hai, isliye sateekta limited hai.',
   },
   en: {
     appName: 'Fasal Saathi',
@@ -602,5 +625,15 @@ export const translations: Record<Language, TranslationDictionary> = {
     aboutKvkTitle: 'Krishi Vigyan Kendra (KVK) Partnership',
     aboutKvkDesc: 'KVKs established across almost every district in India are the true anchors of rural agricultural extension. We actively encourage every farmer to visit their local KVK center.',
     aboutTollFree: 'Kisan Call Centre Toll-Free Helpline: 1800-180-1551',
+
+    dataYearNotice: 'Based on historical agricultural data up to 2014, not future climate forecasts.',
+    dataYearLabel: 'Data Year',
+    confidenceTypicalError: '(~{pct}% typical error)',
+    aboutAccuracyTitle: 'मॉडल की सटीकता / Model Accuracy',
+    aboutAccuracySubtitle: 'Real performance measured on a 20% hold-out test set:',
+    aboutAccuracyMedian: 'Typical Median Error',
+    aboutAccuracyWithin25: 'Predictions within 25%',
+    aboutAccuracyWithin50: 'Predictions within 50%',
+    aboutAccuracyLimitation: 'Dataset mein mitti, khad aur mausam ka data nahi hai, isliye sateekta limited hai.',
   },
 };

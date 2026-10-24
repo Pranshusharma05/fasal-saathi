@@ -221,6 +221,77 @@ html[lang="en"] .section-editorial-h2 {
   background-color: #EFE9DC;
 }
 
+/* Primary Gradient Button & Secondary Button Classes */
+@layer components {
+  .btn-primary-gradient {
+    height: 48px;
+    padding: 0 24px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: linear-gradient(135deg, #14391F 0%, #2F7D3E 100%);
+    color: #FAF6EC;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 3px 12px rgba(20, 57, 31, 0.22);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+  }
+
+  .btn-primary-gradient:hover:not(:disabled) {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 16px rgba(20, 57, 31, 0.32);
+  }
+
+  .btn-primary-gradient:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+
+  .btn-primary-gradient:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  .btn-secondary {
+    height: 48px;
+    padding: 0 20px;
+    font-size: 15px;
+    font-weight: 600;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 8px;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    user-select: none;
+    background-color: transparent;
+    color: #14391F;
+    border: 1px solid #14391F;
+  }
+
+  .btn-secondary:hover:not(:disabled) {
+    background-color: #EFE9DC;
+  }
+
+  .btn-secondary:active:not(:disabled) {
+    transform: scale(0.98);
+  }
+
+  .btn-secondary:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
 /* Hairline dividers */
 .hairline-b {
   border-bottom: 1px solid #E6DECD;

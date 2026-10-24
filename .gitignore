@@ -12,3 +12,7 @@ __pycache__/
 venv/
 env/
 
+# Uncompressed dataset duplicates (zip is used by app.py)
+fasal_backend/crop_production.csv
+fasal_backend/csv_preview/
+

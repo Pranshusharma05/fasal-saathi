@@ -1,0 +1,7 @@
+{
+  "median_abs_pct_error": 25.9,
+  "within_25_pct": 48.8,
+  "within_50_pct": 78.2,
+  "rows_evaluated": 32172,
+  "note": "random 20% hold-out par naapa gaya, naye saalon par error zyada ho sakta hai"
+}

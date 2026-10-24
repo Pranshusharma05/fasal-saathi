@@ -9,6 +9,7 @@ import os
 import re
 import difflib
 import warnings
+import json
 
 import joblib
 import numpy as np
@@ -107,9 +108,32 @@ app = Flask(__name__)
 CORS(app)
 
 
+STATS_PATH = os.path.join(BASE, "accuracy_stats.json")
+
+
+def load_accuracy_stats():
+    if os.path.exists(STATS_PATH):
+        try:
+            with open(STATS_PATH, "r", encoding="utf-8") as f:
+                return json.load(f)
+        except Exception:
+            return None
+    return None
+
+
 @app.get("/api/health")
 def health():
     return jsonify(status="ok", rows=len(df), crops_supported=sorted(CROP_ID_TO_DATASET))
+
+
+@app.get("/api/model-info")
+def model_info():
+    model_name = type(model).__name__
+    stats = load_accuracy_stats() or {}
+    return jsonify({
+        "model_name": model_name,
+        **stats
+    })
 
 
 @app.post("/api/predict")
@@ -262,16 +286,22 @@ def predict():
         else:
             conf = "low"
 
-    return jsonify(
-        yield_t_ha=round(y_mid, 2),
-        range_low_t_ha=round(min(y_lo, y_mid), 2),
-        range_high_t_ha=round(max(y_hi, y_mid), 2),
-        district_avg_t_ha=round(avg, 2),
-        confidence=conf,
-        soil_source="district_average",
-        reasons=reasons[:3],
-        advice=advice[:3],
-    )
+    resp = {
+        "yield_t_ha": round(y_mid, 2),
+        "range_low_t_ha": round(min(y_lo, y_mid), 2),
+        "range_high_t_ha": round(max(y_hi, y_mid), 2),
+        "district_avg_t_ha": round(avg, 2),
+        "confidence": conf,
+        "soil_source": "district_average",
+        "reasons": reasons[:3],
+        "advice": advice[:3],
+        "data_year": 2014,
+    }
+    stats = load_accuracy_stats()
+    if stats and "median_abs_pct_error" in stats:
+        resp["expected_error_pct"] = round(float(stats["median_abs_pct_error"]), 1)
+
+    return jsonify(resp)
 
 
 if __name__ == "__main__":
